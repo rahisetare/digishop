@@ -24,7 +24,7 @@ function App() {
     <Router>
       <Header />
       <main className="py-3">
-        <Container style={{ direction: 'rtl', textAlign: 'right', fontFamily: "'Vazirmatn', sans-serif" }}>
+        <Container>
           <Route path='/' component={HomeScreen} exact />
           <Route path='/login' component={LoginScreen} />
           <Route path='/register' component={RegisterScreen} />
